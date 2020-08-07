@@ -1,0 +1,172 @@
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Merienda+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+    /*AS FOTOS E OS ICONS CONTIDOS NESSE SITE NÃO SÃO DE MINHA AUTORIA
+    AS FOTOS E OS ICONS CONTIDOS NESSE SITE NÃO SÃO DE MINHA AUTORIA
+    O SITE FOI TOTALMENTE INSPIRADO EM MOCKUPS GRINGOS
+    O SITE FOI TOTALMENTE INSPIRADO EM MOCKUPS GRINGOS*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+#header_main{
+    background-position: -25vh;
+    background-position-y: -33cm;
+    background-image: url("https://images2.alphacoders.com/984/984184.jpg");
+}
+
+header{
+    height: 90px;
+    background-color:#8B687F;
+    display: flex;
+}
+
+#camera{
+    width: 64px;
+    height: 64px;
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-left: 40px;
+    margin: 0px;
+}
+
+#textos_principais{
+    display: flex;
+    font-size: 10px;
+    text-align: left;
+    padding-left: 300px;
+    padding-top: 15px;
+}
+
+#texto_nav{
+    margin-top: 10px;
+    margin-left: 80px;
+    opacity: 0.6;
+    transition: 0.3s;
+    color: #F1DAC4;
+
+}
+
+#texto_nav:hover{
+    color: white;
+    opacity: 1;
+}
+
+#fundo_main{
+    width: 100%;
+    height: 100%;
+}
+
+
+#titulo_principal{
+    text-align: center;
+    color: #B486AB;
+    text-shadow: 1px 2px 1px #24272B; 
+    font-size: 3rem;
+    font-family: 'Cookie', cursive;
+}
+
+#titulo_acima{
+    font-size: 60px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Merienda One', cursive;
+}
+
+#p{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+#titulo_abaixo{
+    text-align: center;
+    color:#B486AB;
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #320033;
+}
+
+span{
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    text-align: center;
+    font-size: 15px;
+}
+
+#textinho{
+    width: 500px;
+    height: 100px;
+    padding-left:170px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+
+#textinho_2{
+    width: 500px;
+    height: 100px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#btn{
+
+    border: none;
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+    font-size: 30px;
+    background:#8B687F;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+#btn:hover {
+    background: #B486AB;
+    text-decoration: none;
+    opacity: 1;
+    box-shadow: 1px 1px #F1DAC4;
+}
+
+
+#primeiro, #segundo{
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+#terceiro{
+        margin-top: 30px;
+        margin-left: 50px;
+}
+
+
+footer{
+    background-color: #24272B;
+    border-top: 8px solid #1d1d1d;
+    display: flex;
+}
+
+#fofo{
+    padding-top: 15px;
+    filter: invert()
+}
+#juntos_e_shallow_now{
+    display: flex;
+    padding-top: 10px;
+
+}
